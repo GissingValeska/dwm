@@ -1394,6 +1394,7 @@ run(void)
 void
 runautostart(void)
 {
+  system("cd ~/myFile/scripts; ./autostart.sh &");
 	char *pathpfx;
 	char *path;
 	char *xdgdatahome;
